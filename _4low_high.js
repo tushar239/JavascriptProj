@@ -5,7 +5,7 @@ var one_to_hundred_random_number = Math.round(Math.random() * 100) + 1;
 var guess = 0;
 while (isNaN(guess) || guess < 1 || guess > 100) {
     
-    guess = prompt("Guess a number between 1 and 100");
+    guess = prompt("Guess a number between 1 and 100"); // prompt returns a string. In Javascript, 5 == "5" will be true. In other languages, it will be false.
 
     if(isNaN(guess)) {
         window.alert("Please enter a number.")
