@@ -3,6 +3,12 @@
 // Math.random() gives a random number between 0 and 1. When you multiply it by 100, it will be from 0 to 100.
 // When you round it, it will be from 0 to 99. So, when you add 1 to it, it will be from 1 to 100.
 
+/*
+    Challenge for student: 
+        once you explain if-else if-else, while/do-while loop, function, challenge the student for inputting his name and then
+        printing his name 100 times, if both numbers are equal.
+*/
+
 var one_to_hundred_random_number = Math.round(Math.random() * 100) + 1; // This will return a number. So, type of variable is number.
 /*
 // while loop
