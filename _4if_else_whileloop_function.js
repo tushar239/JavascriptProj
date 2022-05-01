@@ -6,7 +6,7 @@
 /*
     Challenge for student: 
         once you explain if-else if-else, while/do-while loop, function, challenge the student for inputting his name and then
-        printing his name 100 times, if both numbers are equal.
+        printing his name 100 times using a loop, if both numbers are equal.
 */
 
 var one_to_hundred_random_number = Math.round(Math.random() * 100) + 1; // This will return a number. So, type of variable is number.
